@@ -1,0 +1,19 @@
+.hero {
+    background-image: url(../assets/images/portfolio-hero.jpg);
+}
+
+.site-img-1 {
+    background-image: url(../assets/images/nuitviolette.jpg);
+}
+
+.site-img-2 {
+    background-image: url(../assets/images/oneofyourfrenchgirls.jpg);
+}
+
+.site-img-3 {
+    background-image: url(../assets/images/runbuddy.jpg);
+}
+
+.site-main-img {
+    background-image: url(../assets/images/sustainability.jpg);
+}
