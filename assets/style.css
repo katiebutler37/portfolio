@@ -122,16 +122,47 @@ header nav ul li a {
     margin-right: 8%;
 }
 
+.site-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.site-main-img {
+    height: 350px;
+    width: 90%;
+    
+    
+}
+
+.site-other {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+}
+
 .site-img-1 {
     background-image: url(../assets/images/nuitviolette.jpg);
+    height: 350px;
+    width: 350px;
+    background-size: cover;
 }
 
 .site-img-2 {
     background-image: url(../assets/images/oneofyourfrenchgirls.jpg);
+    height: 350px;
+    width: 350px;
+    background-size: cover;
 }
 
 .site-img-3 {
     background-image: url(../assets/images/runbuddy.jpg);
+    height: 350px;
+    width: 350px;
+    background-size: cover;
 }
 
 .site-main-img {
