@@ -123,7 +123,6 @@ header nav ul li a {
 }
 
 
-
 .site-other {
     display: flex;
     flex-wrap: wrap;
@@ -133,28 +132,18 @@ header nav ul li a {
 
 }
 
-.site-title {
-
+.site-title h3, h4 {
+    text-decoration: none;
+    color: var(--secondary-color)
 }
 
-.site-img {
+.site-img img {
     height: 350px;
     width: 30%;
-    background-size: cover;
-    min-width: 250px;
+    min-width: 350px;
     padding: 5px;
-}
-
-.site-img-1 {
-    background-image: url(../assets/images/nuitviolette.jpg);
-}
-
-.site-img-2 {
-    background-image: url(../assets/images/oneofyourfrenchgirls.jpg);
-}
-
-.site-img-3 {
-    background-image: url(../assets/images/runbuddy.jpg);
+    margin-top: 20px;
+    
 }
 
 .site-main {
@@ -163,9 +152,9 @@ header nav ul li a {
     align-items: center;
 }
 
-.main-img {
+.main-img img {
     width: 95%;
     padding: 3px;
     margin: 40px 10px 10px 10px;
-    background-image: url(../assets/images/sustainability.jpg);
+
 }
