@@ -55,7 +55,11 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 2.5vw;
+    font-size: 1.8vw;
+}
+
+header nav ul li a:hover {
+    color:rgba(248, 167, 85, 0.8)
 }
 
 .hero {
@@ -141,6 +145,12 @@ header nav ul li a {
     min-width: 350px;
     padding: 5px;
     margin: 0 17px 34px 17px;
+    opacity: 0.8;
+}
+
+.site-img img:hover {
+        opacity: 1;
+        background-color: rgba(248, 167, 85, 0.8);
 }
 
 .site-main {
@@ -152,7 +162,6 @@ header nav ul li a {
 }
 
 .main-img {
-    position: relative;
     width: 95%;
 }
 
@@ -182,9 +191,14 @@ header nav ul li a {
     list-style: none;
     justify-content: space-around;
     margin: 20px 20px 40px 20px;
+    font-size: 18px;
 }
 
 .contact-info ul li a {
     text-decoration: none;
-    color: var(--secondary-color)
+    color: var(--secondary-color);
+}
+
+.contact-info ul li a:hover {
+    color:rgba(248, 167, 85, 0.8)
 }
