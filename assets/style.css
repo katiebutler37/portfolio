@@ -126,8 +126,8 @@ header nav ul li a {
 .site-other {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
     padding: 20px;
 }
 
@@ -140,13 +140,15 @@ header nav ul li a {
     width: 30%;
     min-width: 350px;
     padding: 5px;
-    margin-top: 20px;
+    margin: 0 17px 34px 17px;
 }
 
 .site-main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 7px;
+    margin-right: 20px;
 }
 
 .main-img {
@@ -155,22 +157,22 @@ header nav ul li a {
 }
 
 .main-img img {
-    width: 95%;
-    padding: 5px;
+    width: 100%;
     margin: 40px 10px 10px 10px;
+    justify-content: center;
 }
 
 .site-title {
     text-decoration: none;
     color: var(--primary-color);
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 52px;
+    left: 32px;
     background-color: rgba(248, 167, 85, 0.8);
     padding: 10px;
 } 
 
 .main-title {
     bottom: 30px;
-    left: 30px;
+    left: 26px;
 }
