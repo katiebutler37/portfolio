@@ -132,20 +132,29 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    padding: 20px;
+    padding: 9px;
+    margin-right: 40px;
 }
 
 .site-img {
     position: relative;
+    width: 30%;
+    height: auto;
+    min-width: 250px;
 }
 
 .site-img img {
-    height: 350px;
-    width: 30%;
-    min-width: 350px;
+    width: 100%;
+    height: auto;
+    display: block;
     padding: 5px;
     margin: 0 17px 34px 17px;
     opacity: 0.8;
+    flex: 1 1 auto;
+}
+
+.site-img-1, .site-img-2, .site-img-3 {
+    max-width: 450px;
 }
 
 .site-img img:hover {
@@ -179,6 +188,7 @@ header nav ul li a:hover {
     left: 32px;
     background-color: rgba(248, 167, 85, 0.8);
     padding: 10px;
+    width: 175px;
 } 
 
 .main-title {
@@ -237,68 +247,27 @@ header nav ul li a:hover {
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
   @media screen and (max-width: 768px) {
-      .step h3 {
-          flex: 1 100%;
-          text-align: center;
-      }
-
-      .step-info {
-          flex: 2 100%;
-          text-align: center;
-          justify-content: center;
-      }
-
-      .step-img {
-          flex: 0 32%;
-          margin-right: 0;
-          margin-top: 15px;
-          margin-bottom: 15px;
-      }
-
-      .step-text {
-          flex: 100%;
-      }
-
-      .hero {
-          height: 300px;
-      }
-  }
+        .hero {
+            height: 300px;
+        }
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {
-      
-    .hero {
-        justify-content: center;
-        height: 250px;
+  @media screen and (max-width: 575px) {    
+        .hero {
+            justify-content: center;
+            height: 250px;
+        }
+
+        .hero-hook {
+            width: 300px;
+            text-align: center;
+            margin: 40px;
+        }
+        .section-title {
+            width: 95%;
+        }
+
+        .main-img img {
+            height: 300px;
+        }
     }
-
-    .hero-hook {
-          width: 300px;
-          text-align: center;
-          margin: 40px;
-      }
-
-      .section-title {
-          width: 95%;
-      }
-
-      .intro p {
-          width: 100%;
-      }
-
-      .trainer {
-          flex: 0 100%;
-      }
-
-      .contact-info {
-          text-align: center;
-      }
-
-      .contact-info > * {
-          flex: 0 100%;
-      }
-
-      .contact-form {
-          order: 3;
-      }
-  }
