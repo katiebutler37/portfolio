@@ -129,12 +129,10 @@ header nav ul li a {
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-
 }
 
-.site-title h3, h4 {
-    text-decoration: none;
-    color: var(--secondary-color)
+.site-img {
+    position: relative;
 }
 
 .site-img img {
@@ -143,7 +141,6 @@ header nav ul li a {
     min-width: 350px;
     padding: 5px;
     margin-top: 20px;
-    
 }
 
 .site-main {
@@ -152,9 +149,28 @@ header nav ul li a {
     align-items: center;
 }
 
+.main-img {
+    position: relative;
+    width: 95%;
+}
+
 .main-img img {
     width: 95%;
-    padding: 3px;
+    padding: 5px;
     margin: 40px 10px 10px 10px;
+}
 
+.site-title {
+    text-decoration: none;
+    color: var(--primary-color);
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(248, 167, 85, 0.8);
+    padding: 10px;
+} 
+
+.main-title {
+    bottom: 30px;
+    left: 30px;
 }
