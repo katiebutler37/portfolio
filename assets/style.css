@@ -176,3 +176,15 @@ header nav ul li a {
     bottom: 30px;
     left: 26px;
 }
+
+.contact-info ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 20px 20px 40px 20px;
+}
+
+.contact-info ul li a {
+    text-decoration: none;
+    color: var(--secondary-color)
+}
