@@ -2,8 +2,8 @@
 
 ## Description
 
-- My Portfolio repository was created to display my professional history in web design and development in an organized manor for emplowers to gain a sense of my capabilities in these areas.
-- This project was allowed me to strengthen my proficiency working with HTML structuring and CSS styling, specifically responsive behaviour and media queries, through application and practice, so that I may create ensure all future sites promote positive user experiences irrespective of screen size..   
+- My Portfolio repository was created to display my professional history in web design and development in an organized manor for employers to gain a sense of my capabilities in these areas.
+- This project has allowed me to strengthen my proficiency working with HTML structuring and CSS styling, specifically responsive behaviour and media queries, through application and practice, so that I may ensure all future sites I create promote positive user experiences irrespective of screen size.   
 
 ### Page Preview
 
