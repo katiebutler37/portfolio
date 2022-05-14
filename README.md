@@ -7,7 +7,7 @@
 
 ### Page Preview
 
-![Portfolio Part 1](./assets/images/portfolio-01.jpgs/)
+![Portfolio Part 1](./assets/images/portfolio-01.jpg)
 
 ![Porfolio Part 2](./assets/images/portfolio-02.jpg)
 
