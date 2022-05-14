@@ -1,3 +1,4 @@
+/* UNIVERSAL STYLING STARTS */
 :root {
     --primary-color: #000;
     --secondary-color: rgb(243, 236, 236);
@@ -9,6 +10,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* UNIVERSAL STYLING ENDS*/
 
 body {
     color: var(--secondary-color);
@@ -16,6 +18,16 @@ body {
     background-color: var(--tertiary-color);
 }
 
+.section-title {
+    color: var(--secondary-color);
+    font-size: 28px;
+    border-bottom: 2px solid rgba(248, 167, 85, 0.693);
+    padding: 30px 30px 10px 20px;
+    margin-top: 5px;
+    display: inline-flex
+}
+
+/* HEADER STYLING STARTS */
 header {
     padding: 20px 35px;
     background-color: var(--tertiary-color);
@@ -61,7 +73,9 @@ header nav ul li a {
 header nav ul li a:hover {
     color:rgba(248, 167, 85, 0.8)
 }
+/* HEADER STYLING ENDS*/
 
+/* HERO STYLING STARTS*/
 .hero {
     background-image: url(../assets/images/portfolio-hero.jpg);
     background-size: cover;
@@ -90,18 +104,11 @@ header nav ul li a:hover {
 .hero-hook p {
     font-style: italic;
 }
+/* HERO STYLING ENDS*/
 
+/* ABOUT ME SECTION STYLING STARTS*/
 .intro {
     background-color: var(--tertiary-color);
-}
-
-.section-title {
-    color: var(--secondary-color);
-    font-size: 28px;
-    border-bottom: 2px solid rgba(248, 167, 85, 0.693);
-    padding: 30px 30px 10px 20px;
-    margin-top: 5px;
-    display: inline-flex
 }
 
 .intro-content {
@@ -126,7 +133,9 @@ header nav ul li a:hover {
     min-width: 300px;
     
 }
+/* ABOUT ME SECTION STYLING ENDS*/
 
+/* WORK SECTION STYLING STARTS*/
 .site-other {
     display: flex;
     flex-wrap: wrap;
@@ -195,7 +204,9 @@ header nav ul li a:hover {
     bottom: 30px;
     left: 26px;
 }
+/* WORK SECTION STYLING ENDS*/
 
+/* CONTACT SECTION STYLING STARTS*/
 .contact-info ul {
     display: flex;
     flex-wrap: wrap;
@@ -214,6 +225,7 @@ header nav ul li a:hover {
 .contact-info ul li a:hover {
     color:rgba(248, 167, 85, 0.8)
 }
+/* CONTACT SECTION STYLING ENDS*/
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
